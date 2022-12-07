@@ -11,27 +11,10 @@
 		4677972E293C6CDA00734DE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4677972D293C6CDA00734DE5 /* ContentView.swift */; };
 		46779730293C6CDC00734DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4677972F293C6CDC00734DE5 /* Assets.xcassets */; };
 		46779734293C6CDC00734DE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46779733293C6CDC00734DE5 /* Preview Assets.xcassets */; };
-		4677973E293C6CDC00734DE5 /* FlexExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4677973D293C6CDC00734DE5 /* FlexExampleTests.swift */; };
-		46779748293C6CDC00734DE5 /* FlexExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46779747293C6CDC00734DE5 /* FlexExampleUITests.swift */; };
-		4677974A293C6CDC00734DE5 /* FlexExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46779749293C6CDC00734DE5 /* FlexExampleUITestsLaunchTests.swift */; };
+		4677975A293C7A3C00734DE5 /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46779759293C7A3C00734DE5 /* GithubAPI.swift */; };
+		46779760293CAC3400734DE5 /* DebugTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4677975F293CAC3400734DE5 /* DebugTool.swift */; };
+		467B8336293ED7E200D70D69 /* FLEX in Frameworks */ = {isa = PBXBuildFile; productRef = 467B8335293ED7E200D70D69 /* FLEX */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4677973A293C6CDC00734DE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46779720293C6CDA00734DE5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 46779727293C6CDA00734DE5;
-			remoteInfo = FlexExample;
-		};
-		46779744293C6CDC00734DE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46779720293C6CDA00734DE5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 46779727293C6CDA00734DE5;
-			remoteInfo = FlexExample;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		46779728293C6CDA00734DE5 /* FlexExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,11 +23,8 @@
 		4677972F293C6CDC00734DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46779731293C6CDC00734DE5 /* FlexExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlexExample.entitlements; sourceTree = "<group>"; };
 		46779733293C6CDC00734DE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		46779739293C6CDC00734DE5 /* FlexExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4677973D293C6CDC00734DE5 /* FlexExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexExampleTests.swift; sourceTree = "<group>"; };
-		46779743293C6CDC00734DE5 /* FlexExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		46779747293C6CDC00734DE5 /* FlexExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexExampleUITests.swift; sourceTree = "<group>"; };
-		46779749293C6CDC00734DE5 /* FlexExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		46779759293C7A3C00734DE5 /* GithubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
+		4677975F293CAC3400734DE5 /* DebugTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,20 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46779736293C6CDC00734DE5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46779740293C6CDC00734DE5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				467B8336293ED7E200D70D69 /* FLEX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				4677972A293C6CDA00734DE5 /* FlexExample */,
-				4677973C293C6CDC00734DE5 /* FlexExampleTests */,
-				46779746293C6CDC00734DE5 /* FlexExampleUITests */,
 				46779729293C6CDA00734DE5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				46779728293C6CDA00734DE5 /* FlexExample.app */,
-				46779739293C6CDC00734DE5 /* FlexExampleTests.xctest */,
-				46779743293C6CDC00734DE5 /* FlexExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +60,8 @@
 			children = (
 				4677972B293C6CDA00734DE5 /* FlexExampleApp.swift */,
 				4677972D293C6CDA00734DE5 /* ContentView.swift */,
+				46779759293C7A3C00734DE5 /* GithubAPI.swift */,
+				4677975F293CAC3400734DE5 /* DebugTool.swift */,
 				4677972F293C6CDC00734DE5 /* Assets.xcassets */,
 				46779731293C6CDC00734DE5 /* FlexExample.entitlements */,
 				46779732293C6CDC00734DE5 /* Preview Content */,
@@ -110,23 +75,6 @@
 				46779733293C6CDC00734DE5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		4677973C293C6CDC00734DE5 /* FlexExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				4677973D293C6CDC00734DE5 /* FlexExampleTests.swift */,
-			);
-			path = FlexExampleTests;
-			sourceTree = "<group>";
-		};
-		46779746293C6CDC00734DE5 /* FlexExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				46779747293C6CDC00734DE5 /* FlexExampleUITests.swift */,
-				46779749293C6CDC00734DE5 /* FlexExampleUITestsLaunchTests.swift */,
-			);
-			path = FlexExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,45 +93,12 @@
 			dependencies = (
 			);
 			name = FlexExample;
+			packageProductDependencies = (
+				467B8335293ED7E200D70D69 /* FLEX */,
+			);
 			productName = FlexExample;
 			productReference = 46779728293C6CDA00734DE5 /* FlexExample.app */;
 			productType = "com.apple.product-type.application";
-		};
-		46779738293C6CDC00734DE5 /* FlexExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46779750293C6CDC00734DE5 /* Build configuration list for PBXNativeTarget "FlexExampleTests" */;
-			buildPhases = (
-				46779735293C6CDC00734DE5 /* Sources */,
-				46779736293C6CDC00734DE5 /* Frameworks */,
-				46779737293C6CDC00734DE5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4677973B293C6CDC00734DE5 /* PBXTargetDependency */,
-			);
-			name = FlexExampleTests;
-			productName = FlexExampleTests;
-			productReference = 46779739293C6CDC00734DE5 /* FlexExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		46779742293C6CDC00734DE5 /* FlexExampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46779753293C6CDC00734DE5 /* Build configuration list for PBXNativeTarget "FlexExampleUITests" */;
-			buildPhases = (
-				4677973F293C6CDC00734DE5 /* Sources */,
-				46779740293C6CDC00734DE5 /* Frameworks */,
-				46779741293C6CDC00734DE5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				46779745293C6CDC00734DE5 /* PBXTargetDependency */,
-			);
-			name = FlexExampleUITests;
-			productName = FlexExampleUITests;
-			productReference = 46779743293C6CDC00734DE5 /* FlexExampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -198,14 +113,6 @@
 					46779727293C6CDA00734DE5 = {
 						CreatedOnToolsVersion = 14.1;
 					};
-					46779738293C6CDC00734DE5 = {
-						CreatedOnToolsVersion = 14.1;
-						TestTargetID = 46779727293C6CDA00734DE5;
-					};
-					46779742293C6CDC00734DE5 = {
-						CreatedOnToolsVersion = 14.1;
-						TestTargetID = 46779727293C6CDA00734DE5;
-					};
 				};
 			};
 			buildConfigurationList = 46779723293C6CDA00734DE5 /* Build configuration list for PBXProject "FlexExample" */;
@@ -217,13 +124,14 @@
 				Base,
 			);
 			mainGroup = 4677971F293C6CDA00734DE5;
+			packageReferences = (
+				467B8334293ED7E200D70D69 /* XCRemoteSwiftPackageReference "FLEX" */,
+			);
 			productRefGroup = 46779729293C6CDA00734DE5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				46779727293C6CDA00734DE5 /* FlexExample */,
-				46779738293C6CDC00734DE5 /* FlexExampleTests */,
-				46779742293C6CDC00734DE5 /* FlexExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,20 +146,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46779737293C6CDC00734DE5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46779741293C6CDC00734DE5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -260,41 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4677972E293C6CDA00734DE5 /* ContentView.swift in Sources */,
+				4677975A293C7A3C00734DE5 /* GithubAPI.swift in Sources */,
 				4677972C293C6CDA00734DE5 /* FlexExampleApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46779735293C6CDC00734DE5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4677973E293C6CDC00734DE5 /* FlexExampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4677973F293C6CDC00734DE5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4677974A293C6CDC00734DE5 /* FlexExampleUITestsLaunchTests.swift in Sources */,
-				46779748293C6CDC00734DE5 /* FlexExampleUITests.swift in Sources */,
+				46779760293CAC3400734DE5 /* DebugTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4677973B293C6CDC00734DE5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 46779727293C6CDA00734DE5 /* FlexExample */;
-			targetProxy = 4677973A293C6CDC00734DE5 /* PBXContainerItemProxy */;
-		};
-		46779745293C6CDC00734DE5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 46779727293C6CDA00734DE5 /* FlexExample */;
-			targetProxy = 46779744293C6CDC00734DE5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4677974B293C6CDC00734DE5 /* Debug */ = {
@@ -401,6 +267,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -456,6 +323,7 @@
 				DEVELOPMENT_TEAM = SY6HRKUSSY;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_SOURCE_FILE_NAMES[arch=*]" = "FLEX*";
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -482,96 +350,6 @@
 			};
 			name = Release;
 		};
-		46779751293C6CDC00734DE5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SY6HRKUSSY;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "yanagimoto-toshiki.FlexExampleTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlexExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlexExample";
-			};
-			name = Debug;
-		};
-		46779752293C6CDC00734DE5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SY6HRKUSSY;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "yanagimoto-toshiki.FlexExampleTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlexExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlexExample";
-			};
-			name = Release;
-		};
-		46779754293C6CDC00734DE5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SY6HRKUSSY;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "yanagimoto-toshiki.FlexExampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FlexExample;
-			};
-			name = Debug;
-		};
-		46779755293C6CDC00734DE5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SY6HRKUSSY;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "yanagimoto-toshiki.FlexExampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FlexExample;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -593,25 +371,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46779750293C6CDC00734DE5 /* Build configuration list for PBXNativeTarget "FlexExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46779751293C6CDC00734DE5 /* Debug */,
-				46779752293C6CDC00734DE5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46779753293C6CDC00734DE5 /* Build configuration list for PBXNativeTarget "FlexExampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46779754293C6CDC00734DE5 /* Debug */,
-				46779755293C6CDC00734DE5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		467B8334293ED7E200D70D69 /* XCRemoteSwiftPackageReference "FLEX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:FLEXTool/FLEX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		467B8335293ED7E200D70D69 /* FLEX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 467B8334293ED7E200D70D69 /* XCRemoteSwiftPackageReference "FLEX" */;
+			productName = FLEX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 46779720293C6CDA00734DE5 /* Project object */;
 }

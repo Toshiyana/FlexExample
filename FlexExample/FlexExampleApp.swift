@@ -9,6 +9,13 @@ import SwiftUI
 
 @main
 struct FlexExampleApp: App {
+    init() {
+        #if DEBUG
+        let debugTool = DebugTool()
+        debugTool.setupFlex()
+        #endif
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()
