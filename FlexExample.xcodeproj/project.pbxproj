@@ -14,6 +14,7 @@
 		4677975A293C7A3C00734DE5 /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46779759293C7A3C00734DE5 /* GithubAPI.swift */; };
 		46779760293CAC3400734DE5 /* DebugTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4677975F293CAC3400734DE5 /* DebugTool.swift */; };
 		467B8336293ED7E200D70D69 /* FLEX in Frameworks */ = {isa = PBXBuildFile; productRef = 467B8335293ED7E200D70D69 /* FLEX */; };
+		467B8338294204B800D70D69 /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B8337294204B800D70D69 /* SampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		46779733293C6CDC00734DE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		46779759293C7A3C00734DE5 /* GithubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
 		4677975F293CAC3400734DE5 /* DebugTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugTool.swift; sourceTree = "<group>"; };
+		467B8337294204B800D70D69 /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				4677972B293C6CDA00734DE5 /* FlexExampleApp.swift */,
 				4677972D293C6CDA00734DE5 /* ContentView.swift */,
+				467B8337294204B800D70D69 /* SampleView.swift */,
 				46779759293C7A3C00734DE5 /* GithubAPI.swift */,
 				4677975F293CAC3400734DE5 /* DebugTool.swift */,
 				4677972F293C6CDC00734DE5 /* Assets.xcassets */,
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				467B8338294204B800D70D69 /* SampleView.swift in Sources */,
 				4677972E293C6CDA00734DE5 /* ContentView.swift in Sources */,
 				4677975A293C7A3C00734DE5 /* GithubAPI.swift in Sources */,
 				4677972C293C6CDA00734DE5 /* FlexExampleApp.swift in Sources */,
